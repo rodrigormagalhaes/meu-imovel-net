@@ -7,7 +7,7 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 
-@DefaultUrl("http://meuimovelnet.com.br")
+@DefaultUrl("http://meuimovelnet.com.br:2014")
 public class HomePage extends PageObject {
 
 	/*
