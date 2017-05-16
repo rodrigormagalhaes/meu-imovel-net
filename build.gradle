@@ -29,3 +29,7 @@ dependencies {
 tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
 }
+
+//Rodrigo
+//Ensure that the Gradle build does not stop at the first test failure, but goes on to generate the Serenity reports
+gradle.startParameter.continueOnFailure = true

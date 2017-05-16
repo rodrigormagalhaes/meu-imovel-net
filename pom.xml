@@ -14,6 +14,7 @@
         <serenity.version>1.2.2-rc.1</serenity.version>
         <serenity.cucumber.version>1.1.16</serenity.cucumber.version>
         <webdriver.driver>firefox</webdriver.driver>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
     <repositories>

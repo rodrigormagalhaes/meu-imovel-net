@@ -6,7 +6,7 @@ Feature: Authentication
 		 Then Login não é permitido
 
 		Examples:
-		  | email                     | senha  |
+		  | email              | senha  |
 		  | teste@teste.com.br | 123456 |
 		  | teste@teste.com.de | 123456 |
 		  | teste@teste.com    | 113456 |
@@ -16,3 +16,4 @@ Feature: Authentication
 		Given Eu estou na página inicial
 		 When Eu tento efetuar login com 'teste@teste.com' e '123456'
 		 Then Usuário 'rodrigo |' deve estar logado	
+		 
